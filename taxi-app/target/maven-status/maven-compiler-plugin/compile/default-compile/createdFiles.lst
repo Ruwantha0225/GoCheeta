@@ -1,0 +1,6 @@
+com\icbt\taxi\services\soap\ObjectFactory.class
+com\icbt\taxi\services\soap\package-info.class
+com\icbt\taxi\services\soap\CustomerService_Service.class
+com\icbt\taxi\services\soap\Hello.class
+com\icbt\taxi\services\soap\HelloResponse.class
+com\icbt\taxi\services\soap\CustomerService.class
