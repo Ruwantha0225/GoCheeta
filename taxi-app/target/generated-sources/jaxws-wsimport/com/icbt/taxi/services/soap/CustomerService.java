@@ -39,4 +39,19 @@ public interface CustomerService {
         @WebParam(name = "name", targetNamespace = "")
         String name);
 
+    /**
+     * 
+     * @param cusId
+     * @return
+     *     returns com.icbt.taxi.services.soap.Customer
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "getCustomer", targetNamespace = "http://soap.services.taxi.icbt.com/", className = "com.icbt.taxi.services.soap.GetCustomer")
+    @ResponseWrapper(localName = "getCustomerResponse", targetNamespace = "http://soap.services.taxi.icbt.com/", className = "com.icbt.taxi.services.soap.GetCustomerResponse")
+    @Action(input = "http://soap.services.taxi.icbt.com/CustomerService/getCustomerRequest", output = "http://soap.services.taxi.icbt.com/CustomerService/getCustomerResponse")
+    public Customer getCustomer(
+        @WebParam(name = "cus_id", targetNamespace = "")
+        String cusId);
+
 }

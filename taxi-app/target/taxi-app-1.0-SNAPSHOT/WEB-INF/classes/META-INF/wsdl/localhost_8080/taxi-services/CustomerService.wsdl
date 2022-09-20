@@ -10,15 +10,34 @@
 <message name="helloResponse">
 <part name="parameters" element="tns:helloResponse"/>
 </message>
+<message name="getCustomer">
+<part name="parameters" element="tns:getCustomer"/>
+</message>
+<message name="getCustomerResponse">
+<part name="parameters" element="tns:getCustomerResponse"/>
+</message>
 <portType name="CustomerService">
 <operation name="hello">
 <input wsam:Action="http://soap.services.taxi.icbt.com/CustomerService/helloRequest" message="tns:hello"/>
 <output wsam:Action="http://soap.services.taxi.icbt.com/CustomerService/helloResponse" message="tns:helloResponse"/>
 </operation>
+<operation name="getCustomer">
+<input wsam:Action="http://soap.services.taxi.icbt.com/CustomerService/getCustomerRequest" message="tns:getCustomer"/>
+<output wsam:Action="http://soap.services.taxi.icbt.com/CustomerService/getCustomerResponse" message="tns:getCustomerResponse"/>
+</operation>
 </portType>
 <binding name="CustomerServicePortBinding" type="tns:CustomerService">
 <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
 <operation name="hello">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="getCustomer">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
