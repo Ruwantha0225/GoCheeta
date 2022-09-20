@@ -22,11 +22,11 @@
        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
        <label for="floatingPassword">PASSWORD</label>
        <P></p>
-       <button type="button" class="btn btn-primary">SUBMIT</button>
+        <a href="/taxi-app/taxistart.jsp" button class="btn btn-primary btn-lg" type="button">SUBMIT</a></button>
        
        
-       <p></p>
-       <button type="button" class="btn btn-secondary">Go Back To Home</button>
+     <p></p>
+       <a href="/taxi-app/index.jsp" button class="btn btn-secondary" type="button">back to home</a></button>
        <p></p>
        <button type="button" class="btn btn-info">Sign Up</button
      </div>

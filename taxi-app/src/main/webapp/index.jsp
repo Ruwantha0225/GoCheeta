@@ -94,7 +94,7 @@
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Sign in !</h1>
         <p>Sign in to your account to continue</p>
-        <a href="/taxi-app/taxistart.jsp" button class="btn btn-primary btn-lg" type="button">SIGN IN  </a></button>
+        <a href="/taxi-app/signin.jsp" button class="btn btn-primary btn-lg" type="button">SIGN IN  </a></button>
       </div>
     </div>
     </div>
@@ -117,8 +117,8 @@
         
             %>
             
-            <p><%out.println(customer.getCusEmail());%></p>
-            <p><%out.println(customer.getCusName());%></p>
+             <p><%//out.println(customer.getCusEmail());%></p>
+            <p><%//out.println(customer.getCusName());%></p>
             
  
     </body>
