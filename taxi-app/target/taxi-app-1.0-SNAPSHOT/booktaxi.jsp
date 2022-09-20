@@ -30,7 +30,7 @@
         <p>In the dropdowm menu, You can choose a vehicle type of your choice !</p>
            <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown button
+                VEHICLE TYPE
               </button>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                 <li><a class="dropdown-item active" href="#">CAR</a></li>
@@ -38,6 +38,23 @@
                 <li><a class="dropdown-item" href="#">VAN</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">choose the vehicle type from above</a></li>
+              </ul>
+            </div>
+       </div>
+            
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Choose a vehicle </h1>
+        <p>In the dropdowm menu, You can choose a vehicle type of your choice !</p>
+           <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                VEHICLE 
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item active" href="#">GMC</a></li>
+                <li><a class="dropdown-item" href="#">RX8</a></li>
+                <li><a class="dropdown-item" href="#">R34</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">choose the vehicle from above</a></li>
               </ul>
             </div>
        </div>
