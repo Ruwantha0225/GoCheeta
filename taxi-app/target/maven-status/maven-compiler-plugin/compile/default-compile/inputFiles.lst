@@ -4,11 +4,16 @@ E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\s
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetCustomerResponse.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetDriverResponse.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\DriverService_Service.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\VehicleService.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\CustomerService_Service.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\DriverService.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\HelloResponse.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\Vehicle.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetVehicle.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\CustomerService.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetDriver.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetVehicleResponse.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\Customer.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\ObjectFactory.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\Driver.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\VehicleService_Service.java

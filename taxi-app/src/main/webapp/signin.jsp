@@ -2,7 +2,13 @@
     Document   : signin
     Created on : Sep 20, 2022, 3:12:52 AM
     Author     : NOBODY
+
 --%>
+<%@page import="com.icbt.taxi.services.soap.CustomerService"%>
+<%@page import="com.icbt.taxi.services.soap.CustomerService_Service"%>
+<%@page import="com.icbt.taxi.services.soap.Customer"%>
+<%@page import="com.icbt.taxi.services.soap.GetCustomer"%>
+<%@page import="com.icbt.taxi.services.soap.Customer"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -30,6 +36,17 @@
        <p></p>
        <button type="button" class="btn btn-info">Sign Up</button
      </div>
+        
+                    <%
+            CustomerService_Service service = new CustomerService_Service();
+            CustomerService proxy = service.getCustomerServicePort();
+            Customer customer = proxy.getCustomer("c1");
+            //System.out.println(result.getString("cus_name"));
+        
+            %>
+            
+             <p><%out.println(customer.getCusEmail());%></p>
+            <p><%out.println(customer.getCusName());%></p>
         
         
        

@@ -14,8 +14,8 @@ public class Driver {
     private String driver_phone;
     
     public Driver(){
-    this.driver_id = "";
-    this.driver_name = "";
+    this.driver_id = "d1";
+    this.driver_name = "josh";
     this.driver_phone = "";
     }
     

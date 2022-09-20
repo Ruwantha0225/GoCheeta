@@ -24,8 +24,8 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _GetDriverResponse_QNAME = new QName("http://soap.services.taxi.icbt.com/", "getDriverResponse");
-    private final static QName _GetDriver_QNAME = new QName("http://soap.services.taxi.icbt.com/", "getDriver");
+    private final static QName _GetVehicle_QNAME = new QName("http://soap.services.taxi.icbt.com/", "getVehicle");
+    private final static QName _GetVehicleResponse_QNAME = new QName("http://soap.services.taxi.icbt.com/", "getVehicleResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.icbt.taxi.services.soap
@@ -35,45 +35,45 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetDriverResponse }
+     * Create an instance of {@link GetVehicle }
      * 
      */
-    public GetDriverResponse createGetDriverResponse() {
-        return new GetDriverResponse();
+    public GetVehicle createGetVehicle() {
+        return new GetVehicle();
     }
 
     /**
-     * Create an instance of {@link GetDriver }
+     * Create an instance of {@link GetVehicleResponse }
      * 
      */
-    public GetDriver createGetDriver() {
-        return new GetDriver();
+    public GetVehicleResponse createGetVehicleResponse() {
+        return new GetVehicleResponse();
     }
 
     /**
-     * Create an instance of {@link Driver }
+     * Create an instance of {@link Vehicle }
      * 
      */
-    public Driver createDriver() {
-        return new Driver();
+    public Vehicle createVehicle() {
+        return new Vehicle();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetDriverResponse }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetVehicle }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://soap.services.taxi.icbt.com/", name = "getDriverResponse")
-    public JAXBElement<GetDriverResponse> createGetDriverResponse(GetDriverResponse value) {
-        return new JAXBElement<GetDriverResponse>(_GetDriverResponse_QNAME, GetDriverResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://soap.services.taxi.icbt.com/", name = "getVehicle")
+    public JAXBElement<GetVehicle> createGetVehicle(GetVehicle value) {
+        return new JAXBElement<GetVehicle>(_GetVehicle_QNAME, GetVehicle.class, null, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GetDriver }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetVehicleResponse }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://soap.services.taxi.icbt.com/", name = "getDriver")
-    public JAXBElement<GetDriver> createGetDriver(GetDriver value) {
-        return new JAXBElement<GetDriver>(_GetDriver_QNAME, GetDriver.class, null, value);
+    @XmlElementDecl(namespace = "http://soap.services.taxi.icbt.com/", name = "getVehicleResponse")
+    public JAXBElement<GetVehicleResponse> createGetVehicleResponse(GetVehicleResponse value) {
+        return new JAXBElement<GetVehicleResponse>(_GetVehicleResponse_QNAME, GetVehicleResponse.class, null, value);
     }
 
 }

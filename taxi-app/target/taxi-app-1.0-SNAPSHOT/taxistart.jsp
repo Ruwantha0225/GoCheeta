@@ -4,6 +4,9 @@
     Author     : NOBODY
 --%>
 
+<%@page import="com.icbt.taxi.services.soap.Driver"%>
+<%@page import="com.icbt.taxi.services.soap.DriverService"%>
+<%@page import="com.icbt.taxi.services.soap.DriverService_Service"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -34,6 +37,17 @@
       </div>
     </div>
         </div>
+            
+                               <%
+            DriverService_Service service = new DriverService_Service();
+            DriverService proxy = service.getDriverServicePort();
+            Driver driver = proxy.getDriver("");
+            //System.out.println(result.getString("cus_name"));
+        
+            %>
+            
+             <p><%out.println(driver.getDriverId());%></p>
+            <p><%out.println(driver.getDriverPhone());%></p>
 
     </body>
 </html>
