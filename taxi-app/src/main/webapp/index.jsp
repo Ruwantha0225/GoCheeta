@@ -23,7 +23,7 @@
                     <h3 class="float-md-start mb-0">GoCheeta</h3>
                     <nav class="nav nav-masthead justify-content-center float-md-end">
                       <a class="nav-link" href="/taxi-app/signin.jsp">Profile</a>
-                      <a class="nav-link" href="/taxi-app/booktaxi.jsp">Guest </a>
+                      <a class="nav-link" href="/taxi-app/booktaxi.jsp">About </a>
                       <a class="nav-link" href="#">Contact</a>
                     </nav>
                   </div>
@@ -92,9 +92,9 @@
     <div class="container py-4">
     <div class="p-5 mb-4 bg-dark rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Lets go for a Ride !</h1>
-        <p>Sign in to your account</p>
-        <a href="/taxi-app/booktaxi.jsp" button class="btn btn-primary btn-lg" type="button">SIGN IN  </a></button>
+        <h1 class="display-5 fw-bold">Sign in !</h1>
+        <p>Sign in to your account to continue</p>
+        <a href="/taxi-app/taxistart.jsp" button class="btn btn-primary btn-lg" type="button">SIGN IN  </a></button>
       </div>
     </div>
     </div>

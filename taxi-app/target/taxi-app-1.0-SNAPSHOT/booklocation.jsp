@@ -19,7 +19,7 @@
                     <h3 class="float-md-start mb-0">GoCheeta</h3>
                     <nav class="nav nav-masthead justify-content-center float-md-end">
                       <a class="nav-link" href="/taxi-app/signin.jsp">Profile</a>
-                      <a class="nav-link" href="/taxi-app/booktaxi.jsp">Guest </a>
+                      <a class="nav-link" href="/taxi-app/booktaxi.jsp">About </a>
                       <a class="nav-link" href="#">Contact</a>
                     </nav>
                   </div>
@@ -30,7 +30,7 @@
         <p>In the dropdowm menu, You can choose your City that you will start your journey !</p>
            <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown button
+                CITY
               </button>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                 <li><a class="dropdown-item active" href="#">COLOMBO</a></li>
@@ -48,7 +48,7 @@
         <p>In the dropdowm menu, You can choose the street address of your starting point !</p>
            <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown button
+                PICK UP
               </button>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                 <li><a class="dropdown-item active" href="#">PETTAH</a></li>
@@ -63,7 +63,7 @@
              <p>In the dropdowm menu, You can choose the street address of your destination !</p>
              <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown button
+                DESTINATION
               </button>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                 <li><a class="dropdown-item active" href="#">PETTAH</a></li>
