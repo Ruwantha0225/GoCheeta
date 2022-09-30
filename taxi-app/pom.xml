@@ -147,6 +147,24 @@
                         <id>wsimport-generate-VehicleService</id>
                         <phase>generate-sources</phase>
                     </execution>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <wsdlFiles>
+                                <wsdlFile>localhost_8080/taxi-services/LocationService.wsdl</wsdlFile>
+                            </wsdlFiles>
+                            <packageName></packageName>
+                            <vmArgs>
+                                <vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
+                            </vmArgs>
+                            <wsdlLocation>http://localhost:8080/taxi-services/LocationService?wsdl</wsdlLocation>
+                            <staleFile>${project.build.directory}/jaxws/stale/LocationService.stale</staleFile>
+                        </configuration>
+                        <id>wsimport-generate-LocationService</id>
+                        <phase>generate-sources</phase>
+                    </execution>
                 </executions>
                 <dependencies>
                     <dependency>

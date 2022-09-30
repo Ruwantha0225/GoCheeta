@@ -18,5 +18,6 @@ Any value defined here will override the pom.xml file value but is only applicab
         <org-netbeans-modules-maven-jaxws._5f_C_5f_CustomerService>http://localhost:8080/taxi-services/CustomerService?wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_CustomerService>
         <org-netbeans-modules-maven-jaxws._5f_C_5f_DriverService>http://localhost:8080/taxi-services/DriverService?wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_DriverService>
         <org-netbeans-modules-maven-jaxws._5f_C_5f_VehicleService>http://localhost:8080/taxi-services/VehicleService?wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_VehicleService>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_LocationService>http://localhost:8080/taxi-services/LocationService?wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_LocationService>
     </properties>
 </project-shared-configuration>

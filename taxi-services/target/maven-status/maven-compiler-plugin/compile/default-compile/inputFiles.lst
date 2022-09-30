@@ -1,6 +1,14 @@
 E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\CustomerDbUtil.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\Vehicle.java
 E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\Customer.java
 E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\soap\CustomerService.java
-E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\soap\DriverService.java
 E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\Driver.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\soap\VehicleService.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\Login.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\soap\DriverService.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\soap\LocationService.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\LocationDbUtil.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\Fee.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\Location.java
+E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\VehicleDbUtil.java
 E:\ICBT\Taxiapp\taxi-services\src\main\java\com\icbt\taxi\services\dbutils\DriverDbUtil.java
