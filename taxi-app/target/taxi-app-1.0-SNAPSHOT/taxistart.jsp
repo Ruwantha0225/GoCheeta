@@ -38,6 +38,15 @@
     </div>
         </div>
             
- 
+                      <%/**
+            DriverService_Service service = new DriverService_Service();
+            DriverService proxy = service.getDriverServicePort();
+            Driver driver = proxy.getDriver("");
+           
+        
+          **/  %>
+            
+             <p><%//out.println(driver.getDriverId());%></p>
+            <p><%//out.println(driver.getDriverPhone());%></p>
     </body>
 </html>

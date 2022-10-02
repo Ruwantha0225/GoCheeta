@@ -4,6 +4,10 @@
     Author     : NOBODY
 --%>
 
+<%@page import="com.icbt.taxi.services.soap.Location"%>
+<%@page import="com.icbt.taxi.services.soap.LocationService"%>
+<%@page import="com.icbt.taxi.services.soap.LocationService_Service"%>
+<%@page import="com.icbt.taxi.services.soap.LocationService_Service"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -93,6 +97,16 @@
                 <p>Web application for <a href="#" class="text-white">GoCheeta</a>, by <a href="#" class="text-white">Ruwantha Ranasinghe</a>.</p>
           </footer>
 
+                                  <%/**
+            LocationService_Service service = new LocationService_Service();
+            LocationService proxy = service.getLocationServicePort();
+            Location location = proxy.getLocation("");
+           
+        
+            **/%>
+            
+             <p><%//out.println(location.getCity());%></p>
+             <p><%//out.println(location.getStreet());%></p>
  
     </body>
 </html>
