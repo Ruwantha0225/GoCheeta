@@ -14,9 +14,9 @@ public class Customer {
     private String cus_email;
     
     public Customer(){
-    this.cus_id = "c1";
-    this.cus_name = "john";
-    this.cus_email = "john@gmail.com";
+    this.cus_id = "";
+    this.cus_name = "";
+    this.cus_email = "";
     }
     
     public Customer(String cus_id,String cus_name, String cus_email){

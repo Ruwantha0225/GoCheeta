@@ -18,7 +18,7 @@ public class DriverDbUtil {
     
    static final String DB_URL = "jdbc:mysql://localhost:3306/gocheeta";
    static final String USER = "root";
-   static final String PASS = "123";
+   static final String PASS = "pass";
    
       public Driver getDriver(String driver_id){
        Driver driver = null;

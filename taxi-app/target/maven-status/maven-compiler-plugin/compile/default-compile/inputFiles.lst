@@ -1,9 +1,13 @@
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\LocationService.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetCustomer.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\Location.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\package-info.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\Hello.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetCustomerResponse.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetDriverResponse.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\DriverService_Service.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetLocation.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\LocationService_Service.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\VehicleService.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\CustomerService_Service.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\DriverService.java
@@ -17,3 +21,4 @@ E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\s
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\ObjectFactory.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\Driver.java
 E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\VehicleService_Service.java
+E:\ICBT\Taxiapp\taxi-app\target\generated-sources\jaxws-wsimport\com\icbt\taxi\services\soap\GetLocationResponse.java

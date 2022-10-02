@@ -6,4 +6,6 @@
     <system systemId="http://localhost:8080/taxi-services/DriverService?xsd=1" uri="wsdl/localhost_8080/taxi-services/DriverService.xsd_1.xsd"/>
     <system systemId="http://localhost:8080/taxi-services/VehicleService?wsdl" uri="wsdl/localhost_8080/taxi-services/VehicleService.wsdl"/>
     <system systemId="http://localhost:8080/taxi-services/VehicleService?xsd=1" uri="wsdl/localhost_8080/taxi-services/VehicleService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/taxi-services/LocationService?wsdl" uri="wsdl/localhost_8080/taxi-services/LocationService.wsdl"/>
+    <system systemId="http://localhost:8080/taxi-services/LocationService?xsd=1" uri="wsdl/localhost_8080/taxi-services/LocationService.xsd_1.xsd"/>
 </catalog>

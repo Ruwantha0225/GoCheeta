@@ -16,7 +16,7 @@ import java.sql.Statement;
 public class VehicleDbUtil {
    static final String DB_URL = "jdbc:mysql://localhost:3306/gocheeta?autoReconnect=true&useSSL=false";
    static final String USER = "root";
-   static final String PASS = "123";
+   static final String PASS = "pass";
    
       public Vehicle getVehicle(String vehicle_id){
       Vehicle vehicle = new Vehicle();
