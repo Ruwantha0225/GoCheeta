@@ -23,5 +23,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      working-directory:  Taxi-app/
+      working-directory:  taxi-app/
       run: mvn -B package --file pom.xml
